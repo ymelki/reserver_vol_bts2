@@ -1,3 +1,14 @@
+<form method="POST"  action="index.php?uc=aeroport">
+  <div class="mb-3">
+    <label for="ville" class="form-label">Ville</label>
+    <input name="aeroport" type="text" class="form-control" id="ville" >
+  </div> 
+  <button type="submit" class="btn btn-primary">Rechercher</button>
+</form>
+<?php 
+var_dump($_POST);
+?>
+
 <div class="row">
   <div class="col-sm-6 mb-3 mb-sm-0">
     <div class="card">
