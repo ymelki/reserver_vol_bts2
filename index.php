@@ -15,9 +15,11 @@ elseif ($page==="compagnie"){
 elseif ($page==="aeroport"){
     include __DIR__.'/Controller/AeroportController.php';
 }  
-elseif ($page==="inscription"){
-    echo "inscription";
+elseif ($page==="authentification"){
+    include __DIR__.'/Controller/AuthentificationController.php';
 } 
 ?>
 </body>
 </html>
+
+ 

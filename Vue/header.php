@@ -23,10 +23,13 @@
           <a class="nav-link active" aria-current="page" href="index.php?uc=compagnie">Compagnie</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php?uc=aeroport">Aeroport</a>
+          <a class="nav-link active" aria-current="page" href="index.php?uc=aeroport&action=aeroport">Aeroport</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php?uc=inscription">Inscription</a>
+          <a class="nav-link active" aria-current="page" href="index.php?uc=authentification&action=inscription">Inscription</a>
+        </li>   
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.php?uc=authentification&action=connexion">Connexion</a>
         </li>         
       </ul> 
     </div>
