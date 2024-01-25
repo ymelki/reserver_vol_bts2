@@ -37,4 +37,13 @@ class Data {
         $array=$statement->fetchAll(PDO::FETCH_ASSOC);
         return $array;
     }
+    public function verif_user($email,$mdp){
+         // 2 requete
+         $statement=$this->pdo->query("select * from utilisateurs
+         where Adresse_email='$email' and Mot_de_passe='$mdp'");
+        
+         // 3 recuperation des données
+         $array=$statement->fetchAll(PDO::FETCH_ASSOC);
+         return $array;
+    }
 }

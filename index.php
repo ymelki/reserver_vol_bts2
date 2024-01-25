@@ -1,4 +1,5 @@
 <?php
+session_start();
 // routeur
 // var_dump($_SERVER);
 $page=$_GET['uc'];

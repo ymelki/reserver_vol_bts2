@@ -30,7 +30,30 @@
         </li>   
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.php?uc=authentification&action=connexion">Connexion</a>
-        </li>         
+        </li>  
+        <?php
+        if (isset($_SESSION['email'])){
+            echo "vous etes connecté";
+            // afficher la partie deconnexion
+            // bouton deconnecté
+            // afficher vous etes connecte
+            ?>
+             <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.php?uc=authentification&action=deconnexion">deconnexion</a>
+        </li> 
+        <?php
+
+        } 
+        else {
+            ?>
+        
+            <?php
+            echo "vous etes deconnecté ";
+            // afficher uniquement dans ce cas le bouton
+            // connexion
+        }
+        ?>
+
       </ul> 
     </div>
   </div>
